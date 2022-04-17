@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../styles/aboutus.css" />
+		<link rel="stylesheet" href="../styles/login.css" />
+		<title>Login</title>
+	</head>
+	<body>
+		<header class="header">
+			<img class="logo" src="../images/Bondoka (1).png" alt="" />
+			<ul>
+				<li class="nav_items"><a href="../pages/index.html">Home</a></li>
+				<li class="nav_items"><a href="../pages/aboutus.html">about</a></li>
+				<li class="nav_items"><a href="#">Contact us</a></li>
+				<li class="nav_items">
+					<i class="fas fa-shopping-cart"></i>
+					<span id="cartCounter" class="counter"></span>
+				</li>
+			</ul>
+		</header>
+		<div class="container">
+			<form action="../pages/index.html" onsubmit="submitData(event);">
+				<fieldset>
+					<legend>LogIn</legend>
+					<div class="content">
+						<label for="user">userName</label>
+						<input
+							type="text"
+							placeholder="userName"
+							id="user"
+							class="inputs"
+							name="userName"
+							onkeyup="getTextValue(event)"
+						/>
+						<div id="userAlert" class="alert">Name is required.</div>
+					</div>
+					<div class="content">
+						<label for="email">Email</label>
+						<input
+							type="text"
+							name="email"
+							onkeyup="getTextValue(event)"
+							placeholder="email"
+							id="email"
+							class="inputs"
+						/>
+						<div id="emailAlert" class="alert">Email Not Valid.</div>
+					</div>
+					<div class="content">
+						<label for="userName">Password</label>
+						<input
+							type="password"
+							placeholder="Password"
+							id="pass"
+							class="inputs"
+							name="password"
+							onkeyup="getTextValue(event)"
+						/>
+						<div id="passAlert" class="alert">
+							Password must be 8 chars at least.
+						</div>
+					</div>
+
+					<div class="links">
+						<a href="#">lost your Password ?</a>
+
+						<a href="#">Dont have an account</a>
+					</div>
+
+					<div style="text-align: center">
+						<button type="submit" id="submit">Log In</button>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+
+		<script src="../contactUS.js"></script>
+	</body>
+</html>

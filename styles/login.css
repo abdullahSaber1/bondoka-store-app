@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+
+label{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+#email{
+    margin-left: 43px;
+}
+#pass{
+    margin-left: 16px;
+
+}
+
+
+.inputs{
+    padding: 5px;
+    width: 331px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid rgb(236, 236, 236);
+    height: 40px;
+    outline: none;
+}
+
+span{
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+}
+
+button{
+    width: 182px;
+    height: 50px;
+    color: white;
+    font-size: 18px;
+    box-shadow: 3px 3px 3px #d3bcbc;
+    border-radius: 10px;
+    text-transform: uppercase;
+    border: none;
+    font-weight: bold;
+    margin: 20px;
+}
+
+#submit{
+    background-color: rgba(13,82,214,1);
+}
+
+#submit:hover{
+   color: rgba(13,82,214,1);
+   background-color: white;
+    border: 2px solid rgba(13,82,214,1) ;
+}
+fieldset{
+    width: 585px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 3px 3px 3px rgb(233, 229, 229);
+   border: 3px solid ;
+   border-radius: 10px;
+   margin: auto;
+   color:rgba(13,82,214,1) ;
+   
+}
+.content{
+    margin-top: 15px;
+}
+legend{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.alert{
+    text-align: center;
+    position: relative;
+    color: white;
+    left: 117px;
+    display: none;
+    background-color: rgb(243, 64, 64);
+    width: 315px;
+    height: 50px;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    margin: 0;
+    border-radius: 10px;
+
+}
+.header .logo{
+    font-size: 21px;
+    font-family: 'FontAwesome';
+    margin-left: 62px;
+    font-weight: bold;
+  }
